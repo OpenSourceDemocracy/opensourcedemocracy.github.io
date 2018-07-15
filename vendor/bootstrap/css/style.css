@@ -1,0 +1,107 @@
+@media (min-width: 992px) {
+    #hero {
+    padding-top: 80px;
+    margin-bottom: 0px;
+    background-image: url("C:/Users/greg.farrenkopf/Documents/osd/opensourcedemocracy.github.io/siteImages/achievement-adult-agreement-1083623.jpg");
+
+    /* Full height */
+    height: 700px;
+    /* Center and scale the image nicely */
+    background-position: 50% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+}
+
+#heroVP {
+    margin-top: 75px;
+    padding-left: 150px;
+    margin-bottom: -150px;
+    color: #595959;
+}
+
+.heroHeadline {
+    font-size: 75px;
+
+}
+.heroSubhead {
+    width: 75%;
+    font-size: 35px;
+}
+
+
+#heroCTA {
+    padding-left: 150px;
+    margin-top: -75px;
+
+}
+
+#visionSection {
+    background-image: url("C:/Users/greg.farrenkopf/Documents/osd/opensourcedemocracy.github.io/siteImages/black-and-white-community-crowd-9816.jpg");
+    /* Full height */
+    height: 100%;
+   
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#visionText {
+    background: white;
+    opacity: 0.8;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#visionText h2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+#missionSection {
+    margin-top: 150px;
+}
+
+
+#missionImg {
+    background-image: url("C:/Users/greg.farrenkopf/Documents/osd/opensourcedemocracy.github.io/siteImages/adventure-ball-shaped-blur-346885.jpg");
+    /* Full height */
+    height: 700px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#whySection {
+    background-image: url("C:/Users/greg.farrenkopf/Documents/osd/opensourcedemocracy.github.io/siteImages/adventure-backlit-community-207896.jpg");
+    /* Full height */
+    height: 700px;
+    /* Center and scale the image nicely */
+    background-position: 50% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#whyText {
+    padding-top: 50px;
+
+}
+#whyText h2 {
+    padding-bottom: 15px;
+}
+
+#whyText ul {
+    list-style-type: none;
+}
+
+#whyText p:nth-child(4) {
+    padding-left: 15%;
+    max-width: 85%;
+}
