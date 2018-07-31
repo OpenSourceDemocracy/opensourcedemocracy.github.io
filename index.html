@@ -1,38 +1,178 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Open Source Democracy</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Site customer CSS -->
-    <linK href='vendor/bootstrap/css/style.css' rel='stylesheet'>
+    <title>Open Source Democracy - Decentralized Apps for a Better Democracy</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <style>/* 
+
+I will show you how to change a height of a standard Bootstrap navbar.
+
+*/
+@font-face{
+  font-family: prime; 
+  src: url(Prime_Regular.otf);
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+
+
+  }
+
+  .val-prop {
+    height: 550px;
+  }
+
+}
+.card {
+  box-shadow: 0 -5px 12px 3px rgba(0,0,0,0.22), 0 15px 12px 3px rgba(0,0,0,0.30);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+  box-shadow: 0 0 3px rgba(0,0,0,0.30), 0 0 12px rgba(0,0,0,0.22);
+ ;
+}
+
+      #pic1{
+          
+           background: url(image/black-and-white-community-crowd-9816.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+      }
+        #pic2{
+          
+           background: url(image/adult-boy-child-325521.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 610px;
+      }
+         #pic3{
+          
+           background: url(image/adventure-ball-shaped-blur-346885.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      }
+         #pic4{
+          
+           background: url(image/adventure-backlit-community-207896.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      }
+      #pic5{
+          
+          background: url(image/architecture-bay-bridge-356830.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+     }
+     #pic7{
+          
+          background: url(image/architecture-bay-bridge-356830.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: none;
+  
+     }
+
+     
+     #jambo{
+          pad;
+          background-image: url(image/achievement-adult-agreement-1083623.jpg); 
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          padding-top: 175px;
+      }
+
+#mobile-logo {
+  display: none;
+}
+    @media screen and (max-width: 768px) {
+      #pic7 {
+        display: block;
+      }
+      #pic5 {
+        display: none;
+      }
+      #jambo {
+      margin-bottom: 60px;
+      background-position: 50% 50px;
+    }
+ 
+    }
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+        display: none;
+    }
+    #mobile-logo {
+      display: block;
+    }
+}
+
+
+  #visionSection,#projectsIdeasSection,#projectsLikeUsSection {
+    padding-top: 25px;
+    padding: 0 75px;
+  }
+
+      #visionSection * {
+        color: black;
+        text-align: center;
+        text-shadow: 0 0 0px black;
+        font-size: 20px;
+        
+      }
 
 
 
-   </head>
-
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
+      </style>
+    </head>
+    
+    
+  <body >
+     
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="box-shadow: 0 0 25px 0 black;font-family: 'prime';">
+      <div class="container-fluid" style="width: 95%">
         <a class="navbar-brand" href="#hero">Open Source Democracy</a>
+        <a id="mobile-logo" class="navbar-brand" href="#hero">OSD</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#visionSection">Vision/Mission
-                <span class="sr-only">(current)</span>
+            <li class="nav-item ">
+              <a class="nav-link" href="#topOfPage">Vision/Mission
+            
               </a>
             </li>
             <li class="nav-item">
@@ -52,99 +192,129 @@
       </div>
     </nav>
 
-    <!-- Page Content -->
-  <div class="container-fluid">
+     
+          <div id="jambo"  style="" class="jumbotron" >
+            <div class="val-prop" style="">
+  <center><h2 class="display-4" style="color: white; text-shadow: 2px 2px 2px black">Open Source Democracy</h2></center><br><br>
+  <center><p class="display-4" style="color: white;text-shadow: 2px 2px 2px black">Build Dapps to make democracy better</p></center>
+  <br><br>
+  <center><a class="btn btn-lg" href="#topOfPage" role="button" style="text-shadow: 1px 1px 1px black;box-shadow: 2px 2px 2px black;background-color: #3f51b5; color:white;">Learn more</a></center>
+</div>
+</div> 
       
-      <div class="row" id="hero">
-        <div class="col-lg-12 text-left" id='heroVP'>
-          <h1 class="heroHeadline">OPEN SOURCE DEMOCRACY</h1>
-          <p class="heroSubhead">A community dedicated to helping developers make tools to better democracy.</p>
-        </div>
-        <div class="col-lg-12 text-left" id='heroCTA'>
-          <a class="btn btn-primary btn-lg" href="#whySection" role="button">LEARN MORE</a>
-        </div>
-      </div>
+<div class="container" style="font-family: 'prime';" id="topOfPage">
+<div class="row" style="margin-top: -150px; box-shadow: 0 0 25px 0 black;" >
+    <div style="background-color: white;">
+      <div  style=""> 
+          <h1 style="text-align: center; padding-top: 25px;">Vision/Mission</h1>
+          <div id="visionSection" class="container" style="height: 100%; width: 100%;">
+    <br>
+      
+  <p >Today we live in a world hanging on to the seat of its pants as we hurdle faster and faster through the most intense period of technological change experienced since the Industrial revolution and soon to be ever.</p>
 
+<p>As a result our current social and political systems are breaking down. Trust in our political leaders, the election process, and the media has hit an all-time low. Local governments have struggled to deliver the services most needed by their communities. Civic engagement and voter turn out numbers have slid lower and lower.</p>
+
+<p>Until now.</p> 
+
+<p>Now is the time we come together to bring our democracy into the 21st century.</p>
+
+<p>Now with the ever decreasing costs of computing, the rise of decentralized applications, and the growing mass adoption of information technology, we can build tools to restore faith in our democracy, streamline our local government services, and mobilize informed groups of voters to make their voices heard.</p>
+
+<p>This is our mission: To build a community of dreamers and doers, working together to build the skills and tools needed for an Open Source Democracy. 
+          </p></div>
+        </div>
+        </div>
+        <div id="pic3" style="height: 655px" class="col-lg-6 col-md-12"></div>
  
-   
-  
-      <div class='row' id ='visionSection'>
-        <div class='col-lg-6 text-left' id="visionText">
-          <h2 class="mt-6">The Vision</h2>
-          <p class="lead">Today we live in a world hanging on to the seat of its pants as we hurdle faster and faster through the most intense period of technological change experienced since the Industrial revolution and soon to be ever.
-          <br><br>
-          As a result our current social and political systems are breaking down. Trust in our political leaders, the election process, and the media has hit an all-time low. Local governments have struggled to deliver the services most needed by their communities. Civic engagement and voter turn out numbers have slid lower and lower.
-          <br><br>    
-          Until now. 
-          <br><br>
-          Now is the time we come together to bring our democracy into the 21st century.
-            
-          </p>
-        </div>
-      </div>
-      
-        
-    <div class='row' id='missionSection'>
-        <div class='col-lg-6'>
-          <div class='sectionImage' id='missionImg'>
-              
+           
+     
+ 
+           <div style="padding-top: 40px; background-color: #546e7a; color: white;" class="col-lg-6 col-md-12"><div id="whySection" class="container-fluid   " style="padding-bottom:70px">
+             <div style="background-color: #546e7a;padding: 0 25px;text-shadow: 2px 2px 2px black" class="card">
+            <br>
+               <h1 style="">Why</h1><br>
+             <p style="font-size: 20px"> We are huge fans of open source technologies and the communities built around them. We believe that a true democracy is open sourced in that:</p>
+                <ol>
+                       <li style="font-size: 20px">The public has a right to access the source code of government tools and to non-sensitive data</li>
+                       <li style="font-size: 20px">Government and community tools will be best developed by the people who use them</li> 
+                     </ol>
+             <p style="font-size: 20px">No one feels the negative effects of fake news, poor public transportation, and partisianally drawn district lines more than the people living in our communities. By giving us all an outlet, we can fix these problems.</p>
+           </div>
           </div>
-        </div>
-      <div class='col-lg-6'>
-        <h2 class='mt-6'>The Mission</h2>
-        <p class='lead'>Now with the ever decreasing costs of computing, the rise of decentralized applications, and the growing mass adoption of information technology, we can build tools to restore faith in our democracy, streamline our local government services, and mobilize informed groups of voters to make their voices heard.
-        <br><br>
-        This is our mission: To build a community of dreamers and doers, working together to build the skills and tools needed for an Open Source Democracy. 
-        </p>
-      </div>  
-    </div>
+          </div>
 
-    <div class='row' id='projectsIdeasSection'>
-      <div class='col-lg-12'>
-          <h2 class="mt-5" id="Projects"> Project ideas </h2>
-          <ul class="list-unstyled">
-            <li>App to register voters.</li>
-            <li>App to help canvass and talk to voters.</li>
-            <li>Use Natural Language Processing to help tag and search political text.</li>
-          </ul>
-      </div>
-    </div>
-      
-    <div class='row' id='whySection'>
-      <div class='col-lg-12 text-center' id='whyText'>
-        <h2 class="mt-6">Why</h2>
-        <p class="lead">
-            We are huge fans of open source technologies and the communities built around them. We believe that a true democracy is open sourced in that:
-        </p>
-          <ul>
-            <li>The public has a right to access the source code of government tools and to non-sensitive data</li>
-            <li>Government and community tools will be best developed by the people who use them</li> 
-          </ul>
-        <p class='lead'>
-            No one feels the negative effects of fake news, poor public transportation, and partisianally drawn district lines more than the people living in our communities. By giving us all an outlet, we can fix these problems.
-            
-        </p>
-      </div>
-    </div>
-    
-    <div class='row' id='projectsLikeUsSection'>
-      <div class='col-lg-12'>
-        <h2>Projects Like Us</h2>
-      </div>
-    </div>
+ <div id="pic7" style="height: 605px" class="col-lg-6 col-md-12"></div>
 
-    <div class='row' id='contactSection'>
-      <div class='col-lg-12'>
-        <h2>Contact Us</h2>
-      </div>
-    </div>
+          <div style="background-color:#3f51b5; color: white;" class="col-lg-6 col-md-12">
+              <div id="projectsIdeasSection" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
+                  <div style="background-color: #3f51b5;padding: 0 13px;text-shadow: 2px 2px 2px black; word-break: keep-all;" class="card">
   
-  </div>
+             
+  <br><br><br>
+ 
+ <h1>Project ideas</h1><br>
+  <ul>
+           <li style="font-size: 20px">App to register voters.</li><br>
+           <li style="font-size: 20px">App to help canvass and talk to voters.</li><br>
+           <li style="font-size: 20px">Use Natural Language Processing to help tag and search political text.</li>
+         </ul>
+</div>
+</div>
+          </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-</body>
 
+
+          <div id="pic5" style="height: 605px" class="col-lg-6 col-md-12"></div>
+
+
+      
+     
+     
+
+          <div id="pic2" style="height: 605px;" class="col-lg-6 col-md-12"></div>
+     
+
+       
+  
+   
+      
+
+    
+
+         
+      
+           <div style="height: 605px;background-color: #546e7a; color: white;" class="col-lg-6 col-md-12">
+            <div id="projectsLikeUsSection" class="container-fluid  " style="padding-top:70px;padding-bottom:70px">
+              <div style="background-color: #546e7a;padding: 0 25px;text-shadow: 2px 2px 2px black" class="card">
+   <br><br><br>
+  <h1>Projects Like Us</h1>
+    <ul><br>
+            <li  style="font-size: 20px">Democracy OS</li><br>
+            <li style="font-size: 20px">Liquid Democracy</li>
+        
+          </ul>
+</div>
+</div>
+
+</div>
+<div id="pic4" class="container" style="font-family: 'prime';">
+<div style="height: 605px;" class="col-lg-6 col-md-12"></div>
+</div>
+      </div> 
+  
+      
+    </div> 
+    
+      <footer  style="height: 120px;background-color:black; box-shadow: 0 0 25px 0 black"><br><br>
+          <center>  <label style="color: white" >Open Source Democracy 2018
+</label></center>
+    
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
 </html>
